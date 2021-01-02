@@ -7,27 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-	
-	<style>
-.button {
-	background-color: #4CAF50;
-	border-radius: 8px;
-	border: none;
-	color: white;
-	padding: 10px 14px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-}
-.box {
-	float: left;
-	margin-right: 20px;
-}
-.carousel-control-next, .carousel-control-prev {
-	filter: invert(100%);
-}
-	</style>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/home.css">
 	
     <title>GamaTechno</title>
 

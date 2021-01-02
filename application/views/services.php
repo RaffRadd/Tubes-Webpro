@@ -7,71 +7,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-	<style>
-	
-.tab {
-	width: 250px;
-	min-width: 250px;
-}
-.tab button {
-	display: block;
-	background-color: inherit;
-	color: black;
-	padding: 22px 16px;
-	width: 100%;
-	border: none;
-	outline: none;
-	text-align: left;
-	cursor: pointer;
-	transition: 0.3s;
-}
-.tab button:hover {
-	background-color: #ddd;
-}
-.tab button.active {
-	background-color: #1fbde0;
-}
-.tabcontent {
-	float: left;
-	padding: 0px 12px;
-	border: 1px solid #ccc;
-	width: 70%;
-	border-left: none;
-}
-.verti {
-	display: flex;
-}
-h3, p, li, dt, dd {
-	margin-left: 40px;
-}
-.button {
-	background-color: #4CAF50;
-	border-radius: 12px;
-	border: none;
-	color: white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-}
-.img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%;
-}
-.container {
-	display: flex;
-	overflow-y: auto;
-	flex-direction: row;
-	align-items: center;
-	padding-bottom:20px;
-}
-	</style>
-
-    <title>GamaTechno</title>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/services.css">
+    
+	<title>GamaTechno</title>
 	
   </head>
   <body>
@@ -173,8 +111,8 @@ h3, p, li, dt, dd {
 	</div>
 </div>
  
-<div style="text-align:center; background-color:#dedede">
-	<h2>OUR CLIENT</h2>
+<div style="text-align:center; background-color:#dedede; padding-top:30px;">
+	<h2 style="margin-bottom:20px;">OUR CLIENT</h2>
 	<div class="container">
 		<img class="img" alt="Menteri Pendidikan" src="./images/Kementrian-Pendidikan-RI.png">
 		<img class="img" alt="Menteri Perhubungan" src="./images/Kementrian-Perhubungan-RI.png">
