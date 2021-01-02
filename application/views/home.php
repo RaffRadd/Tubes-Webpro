@@ -26,47 +26,49 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			float:left;
 			margin-right:20px;
 		}
-		.clear{
-			clear:both;
-}
+		
+		.carousel-control-next,
+		.carousel-control-prev{
+			filter: invert(100%);
+		}
     </style>
   </head>
   <body>
   
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carousel" class="carousel slide" data-ride="carousel" style="height: 570px;">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./images/asd.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="margin-bottom:330px; text-shadow: 0px 2px #000000">
+            <div class="carousel-item active" style="text-color: #1c1c1c: border-style:solid">
+                <img src="./images/asd.jpg" class="d-block w-100" alt="..." style="height:100%">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:13%; text-shadow: 0px 0px 5px #000; color:#FFF;">
                     <h1>Welcome to GamaTechno</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./images/App-Development.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="margin-bottom:520px;">
-                    <h1 style="color:black; text-shadow: 2px 0px #FFFFFF">Imagining an Advanced Future</h1>
-                    <h3 style="color:black; text-shadow: 2px 0px #FFFFFF">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h3>
+                <img src="./images/App-Development.jpg" class="d-block w-100" alt="..." style="height:100%">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:13%; text-shadow: 0px 0px 5px #FFF; color:#000;">
+                    <h1>Imagining an Advanced Future</h1>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h3>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./images/GTN.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" style="margin-bottom:395px; text-shadow: 0px 2px #000000">
+                <img src="./images/GTN.jpg" class="d-block w-100" alt="..." style="height:100%; width:100%">
+                <div class="carousel-caption d-none d-md-block" style="margin-bottom:13%; text-shadow: 0px 0px 5px #FFF; color:#000;">
                     <h1>Enhancing Your Business</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
                 </div>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -149,9 +151,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 	
 	<br>
-    <div class="cdental ml-5" style="font-weight:bolder; font-size:50px; color: Black; text-align:center">
+    <div style="font-weight:bolder; font-size:50px; color: Black; text-align:center; align:center;">
         <p>Success Story</p>
-        <iframe width="1366px" height="768px" style="margin-bottom:20px"
+		
+        <iframe width="1280px" height="720px" style="margin-bottom:20px"
             src="https://youtube.com/embed/wvwPhFaEXSU">
         </iframe> 
     </div>

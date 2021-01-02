@@ -8,25 +8,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <title>About Us - GamaTechno</title>
+    <title>GamaTechno - About Us</title>
 
   </head>
   <body>
   
-	<div style="width: 100%; display: table;">
-		<div style="display: table-row">
-			<div style="width: 600px; display: table-cell; float:left; margin-top:175px; margin-left:100;"> 
+		<div style="display: flex">
+			<div style=" display: table-cell; float:left; margin-top:175px; margin-left:80;"> 
 			<h1 class="et_pb_module_header">Remarks by the Director</h1>
 				<h3>
 					<span style="color: #e09900;">Halo pelanggan, investor, venture capital, digital startup, Gamatechno siap untuk menjadi mitra kolaborasi menghadapi situasi serba tidak menentu di era disruptif!
 					</span>
 				</h3>
 			</div>
-			<div style="display: table-cell; float:right; margin-right:200px;"> 
+			<div style="display: table-cell; float:right; margin-right:90px;"> 
 			<img src="./images/who.png">
 			</div>
 		</div>
-	</div>
+
 	<div>
 		<p style="margin:40px;">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio nulla, gravida eu pretium ullamcorper, tristique sit amet nisl. Nam non ultrices tellus, in iaculis lorem. Donec velit urna, euismod at porta ut, cursus id nisi. Maecenas viverra molestie magna, ut malesuada leo. Integer at viverra magna, ac placerat odio. Cras posuere fermentum nunc eget commodo. Donec nec orci vulputate, cursus lectus a, bibendum leo.
