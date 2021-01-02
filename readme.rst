@@ -1,1 +1,3 @@
-Teuku Rafif Raditya  |  1303184020  |  IT-42-02
+Teuku Rafif Raditya
+IT-42-02
+1303184020
