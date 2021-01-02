@@ -11,10 +11,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<style>
 .button {
 	background-color: #4CAF50;
-	border-radius: 12px;
+	border-radius: 8px;
 	border: none;
 	color: white;
-	padding: 10px 20px;
+	padding: 10px 14px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -74,28 +74,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
 
-    <div class="d-flex mt-4" style="align-items:center; flex-direction:column; font-size:15px;">
+    <div class="d-flex mt-4" style="align-items:center; flex-direction:column; font-size:15px">
         <h1>About Gamatechno </h1>
-		<h4>Software House Indonesia</h4>
-		<center>
-        <p style="padding-left: 20px; padding-right: 20px;">Gamatechno Software House Indonesia merupakan perusahaan konsultan IT di bidang jasa pembuatan aplikasi dan penyedia solusi teknologi informasi berbasis web, mobile dan desktop yang berkantor pusat di Yogyakarta dan memiliki kantor cabang di Jakarta dan Bali. Resmi berdiri pada 4 Januari 2005 berawal dari pengembangan sistem informasi untuk segmen perguruan tinggi.</p>
-		<a class="nav-link" href="<?php echo site_url('About')?>">
-			<button class="button" <?php echo site_url('About')?> >Selengkapnya</button>
-		</a>
+		<h4 style="margin-bottom:30px;">Software House Indonesia</h4>
 		
-		</center>
+		 <div style="width: 100%; overflow: hidden;">
+			<div style="width: 600px; float: left;">
+			
+			<iframe width="500px" height="285px" style="margin-left:130px"
+            src="https://youtube.com/embed/fqcDTVy1BBs">
+			</iframe>
+			
+			</div>
+			<div style="margin-left: 50%;">  
+				<div style="margin:0px 130px 0px 20px;">
+					<p>Gamatechno Software House Indonesia merupakan perusahaan konsultan IT di bidang jasa pembuatan aplikasi dan penyedia solusi teknologi informasi berbasis web, mobile dan desktop yang berkantor pusat di Yogyakarta dan memiliki kantor cabang di Jakarta dan Bali. Resmi berdiri pada 4 Januari 2005 berawal dari pengembangan sistem informasi untuk segmen perguruan tinggi.</p>
+					<br>
+					<p>Saat ini Gamatechno sebagai software developer terbaik telah melayani lebih dari 400 klien B2B di seluruh Indonesia. Seiring dengan perkembangan perusahaan, Gamatechno memperluas segmen market untuk menyediakan solusi teknologi bagi institusi pemerintah, bisnis, transportasi dan beberapa segmen penting lainnya</p>
+					
+					<a href="<?php echo site_url('About')?>">
+						<button class="button" <?php echo site_url('About')?> >Selengkapnya</button>
+					</a>
+				</div>
+			</div>
+		</div>
+		
     </div>
 	
 	<br>
-	<div style="background-color:#e3e3e3">
+	<div style="background-color:#e3e3e3; padding-top:50px; padding-bottom:50px;">
     <div class="service ml-5" style="font-weight:bolder; font-size:50px; color: black;text-align:center; margin-right:46px;">
         <p>Services</p>
     </div>
     <div class="list-service d-flex flex-row justify-content-between m-5">
         <div class="card" style="width: 18rem; border:none;">
-            <div class="circle">
-                
-            </div>
             <div class="card-body d-flex flex-column">
                 <a href="#" class="d-flex flex-column align-items-center">
 					<img src="./images/Aplikasi-Solo-Destination.jpg" class="d-block w-100" alt="..." style="padding-bottom:10px" width="240" height="160">
@@ -159,7 +171,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="font-weight:bolder; font-size:50px; color: Black; text-align:center; align:center;">
         <p>Success Story</p>
 		
-        <iframe width="1280px" height="720px" style="margin-bottom:20px"
+        <iframe width="800px" height="400px" style="margin-bottom:20px"
             src="https://youtube.com/embed/wvwPhFaEXSU">
         </iframe> 
     </div>

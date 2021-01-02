@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 
 	<div>
-		<p style="margin:40px;">
+		<p style="margin:80px;">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer odio nulla, gravida eu pretium ullamcorper, tristique sit amet nisl. Nam non ultrices tellus, in iaculis lorem. Donec velit urna, euismod at porta ut, cursus id nisi. Maecenas viverra molestie magna, ut malesuada leo. Integer at viverra magna, ac placerat odio. Cras posuere fermentum nunc eget commodo. Donec nec orci vulputate, cursus lectus a, bibendum leo.
 			<br><br>
 			Etiam in lacus mattis, vulputate lorem vitae, commodo ligula. Cras blandit nisl sed velit suscipit ornare eget at diam. Pellentesque aliquam ipsum vitae odio imperdiet hendrerit. Phasellus non tellus ex. Sed nec neque semper, feugiat lorem vel, molestie turpis. Vivamus euismod leo ut ornare dignissim. Nulla facilisi. Donec sit amet vulputate neque, quis vestibulum nibh. Duis commodo ac velit et finibus. Curabitur laoreet pharetra felis, in dapibus justo auctor sed. Praesent tincidunt ex a tortor placerat fermentum. Maecenas ultricies euismod odio, ac dictum quam scelerisque ut.

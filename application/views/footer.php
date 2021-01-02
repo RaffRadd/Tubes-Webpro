@@ -17,6 +17,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
 		<div style="margin-top:66px; margin-right:25px;">
-		    <p style="color: #abababab; font-size:18px;">© 2020 Corona Year</p>
+		    <p style="color: #abababab; font-size:18px;">© 2021 RaffRadd | <a href="https://github.com/RaffRadd/Tubes-Webpro">Github</a></p>
         </div>
 </footer>
