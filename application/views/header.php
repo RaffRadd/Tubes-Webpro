@@ -1,3 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!doctype html>
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #000000; font-size:15px;">
         <a class="navbar-brand ml-5" href="<?php echo site_url('')?>">
@@ -11,19 +14,19 @@
             <ul class="navbar-nav mr-auto"></ul>
             <span class="mr-4">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item active" style="margin-left:0px;">
                         <a class="nav-link" href="<?php echo base_url('')?>">Home <span class="sr-only">(current)</span></a>
                     </li>			
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:0px;">
                         <a class="nav-link" href="<?php echo base_url('About')?>">About Us</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:0px;">
                         <a class="nav-link" href="<?php echo base_url('services')?>">Services</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:0px;">
                         <a class="nav-link" href="#">Product</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="margin-left:0px;">
                         <a class="nav-link" href="<?php echo site_url('contactUs')?>">Contact Us</a>
                     </li>							
                     <form class="form-inline my-2 my-lg-0">

@@ -13,9 +13,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </head>
   <body>
   
-		<div style="display: flex">
-			<div style=" display: table-cell; float:left; margin-top:175px; margin-left:80;"> 
-			<h1 class="et_pb_module_header">Remarks by the Director</h1>
+		<div style="display:flex">
+			<div style="margin-top:175px; margin-left:80px;"> 
+			<h1>Remarks by the Director</h1>
 				<h3>
 					<span style="color: #e09900;">Halo pelanggan, investor, venture capital, digital startup, Gamatechno siap untuk menjadi mitra kolaborasi menghadapi situasi serba tidak menentu di era disruptif!
 					</span>
@@ -42,11 +42,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <!-- Optional JavaScript; choose one of the two! -->
 
-    <script>
-        $('.carousel').carousel({
-            interval: 1000
-        })
-    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>

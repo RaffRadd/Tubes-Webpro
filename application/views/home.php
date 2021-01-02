@@ -7,31 +7,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+	
+	<style>
+.button {
+	background-color: #4CAF50;
+	border-radius: 12px;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.box {
+	float: left;
+	margin-right: 20px;
+}
+.carousel-control-next, .carousel-control-prev {
+	filter: invert(100%);
+}
+	</style>
+	
     <title>GamaTechno</title>
 
-    <style>
-		.button {
-			background-color: #4CAF50;
-			border-radius: 12px;
-			border: none;
-			color: white;
-			padding: 10px 20px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-		}
-		.box{
-			float:left;
-			margin-right:20px;
-		}
-		
-		.carousel-control-next,
-		.carousel-control-prev{
-			filter: invert(100%);
-		}
-    </style>
   </head>
   <body>
   
@@ -43,21 +42,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active" style="text-color: #1c1c1c: border-style:solid">
-                <img src="./images/asd.jpg" class="d-block w-100" alt="..." style="height:100%">
+                <img src="./images/asd.jpg" class="d-block w-100" alt="..." style="height:570px;">
                 <div class="carousel-caption d-none d-md-block" style="margin-bottom:13%; text-shadow: 0px 0px 5px #000; color:#FFF;">
                     <h1>Welcome to GamaTechno</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./images/App-Development.jpg" class="d-block w-100" alt="..." style="height:100%">
+                <img src="./images/App-Development.jpg" class="d-block w-100" alt="..." style="height:570px;">
                 <div class="carousel-caption d-none d-md-block" style="margin-bottom:13%; text-shadow: 0px 0px 5px #FFF; color:#000;">
                     <h1>Imagining an Advanced Future</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h3>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./images/GTN.jpg" class="d-block w-100" alt="..." style="height:100%; width:100%">
+                <img src="./images/GTN.jpg" class="d-block w-100" alt="..." style="height:570px;">
                 <div class="carousel-caption d-none d-md-block" style="margin-bottom:13%; text-shadow: 0px 0px 5px #FFF; color:#000;">
                     <h1>Enhancing Your Business</h1>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
@@ -88,6 +87,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 	
 	<br>
+	<div style="background-color:#e3e3e3">
     <div class="service ml-5" style="font-weight:bolder; font-size:50px; color: black;text-align:center; margin-right:46px;">
         <p>Services</p>
     </div>
@@ -101,9 +101,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<img src="./images/Aplikasi-Solo-Destination.jpg" class="d-block w-100" alt="..." style="padding-bottom:10px" width="240" height="160">
 					<center>
                     <h5 class="card-title" style="font-size:23px;">IT Support</h5>
+				</a>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies leo nunc, eget tempus sem ullamcorper ac. Integer molestie mattis eros sed sollicitudin. </p>
 					</center>
-				</a>
+				
             </div>
         </div>
         <div class="card" style="width: 18rem; border:none;">
@@ -115,9 +116,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<img src="./images/App-Development.jpg" class="d-block w-100" alt="..." style="padding-bottom:10px" width="240" height="160">
 					<center>
                     <h5 class="card-title" style="font-size:23px;">Mobile Development</h5>
+				</a>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies leo nunc, eget tempus sem ullamcorper ac. Integer molestie mattis eros sed sollicitudin. </p>
 					</center>
-				</a>
             </div>
         </div>
         <div class="card" style="width: 18rem; border:none;">
@@ -127,11 +128,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="card-body d-flex flex-column">
                 <a href="#" class="d-flex flex-column align-items-center">
 					<img src="./images/dashboard.jpg" class="d-block w-100" alt="..." style="padding-bottom:10px" width="240" height="160">
+
 					<center>
                     <h5 class="card-title" style="font-size:23px;">IT Consultation</h5>
+				</a>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies leo nunc, eget tempus sem ullamcorper ac. Integer molestie mattis eros sed sollicitudin. </p>
 					</center>
-				</a>
+
             </div>
         </div>
         <div class="card" style="width: 18rem; border:none;">
@@ -143,13 +146,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<img src="./images/Dynamic-Price-Setup.jpg" class="d-block w-100" alt="..." style="padding-bottom:10px" width="240" height="160">
 					<center>
                     <h5 class="card-title" style="font-size:23px;">Digital Design</h5>
+				</a>
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies leo nunc, eget tempus sem ullamcorper ac. Integer molestie mattis eros sed sollicitudin. </p>
 					</center>
-				</a>
+				
             </div>
         </div>
     </div>
-	
+	</div>
+
 	<br>
     <div style="font-weight:bolder; font-size:50px; color: Black; text-align:center; align:center;">
         <p>Success Story</p>
@@ -158,12 +163,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             src="https://youtube.com/embed/wvwPhFaEXSU">
         </iframe> 
     </div>
-   
-    <!-- Optional JavaScript; choose one of the two! -->
 
     <script>
         $('.carousel').carousel({
-            interval: 1000
+            interval: 2000
         })
     </script>
 

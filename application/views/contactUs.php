@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<label for="pwd">Message:</label> <textarea class="form-control" id="msg" rows="4" placeholder="Your Message" ></textarea>
 			</div>
 
-			<button class="button btn-default" type="submit">Submit</button>
+			<button class="button btn-default" type="submit" style="margin-bottom:50px;">Submit</button>
 		</form>
 	</div>
 </body>

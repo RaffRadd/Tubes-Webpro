@@ -1,14 +1,18 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!doctype html>
+
 <footer style="display:flex; background-color:#070707; justify-content:space-between; font-size:14px;">
 		<div style="margin-top:15px; margin-left:25px">
             <h4 style="color:#3d90e3;">Contact Us</h4>
-            <p style="color:white;">
+            <p style="color:white; margin:0px;">
 				Phone: 1234 0987 6789
 				<br>
 				Fax: 0987 6543 2109
 				<br>
 				Phone: 1029 3847 5675
 			</p>
-            <p style="color:white;">Email: <a href="mailto:###">mailtest@testmail.com</a>
+            <p style="color:white; margin:0px 0px 20px 0px;">Email: <a href="mailto:###">mailtest@testmail.com</a>
 			</p>
         </div>
 
