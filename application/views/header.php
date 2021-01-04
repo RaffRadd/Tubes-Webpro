@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #000000; font-size:15px;">
         <a class="navbar-brand ml-5" href="<?php echo site_url('')?>">
-            <img src="./images/GT.png" width="200" height="70" alt="" loading="lazy">
+            <img src="./images/GT.png" width="200px" height="70px" alt="" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <a class="nav-link" href="<?php echo base_url('services')?>">Services</a>
                     </li>
                     <li class="nav-item" style="margin-left:0px;">
-                        <a class="nav-link" href="#">Product</a>
+                        <a class="nav-link" href="<?php echo base_url('Product')?>">Product</a>
                     </li>
                     <li class="nav-item" style="margin-left:0px;">
                         <a class="nav-link" href="<?php echo site_url('contactUs')?>">Contact Us</a>
