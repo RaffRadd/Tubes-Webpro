@@ -23,7 +23,7 @@
 
     <div>
 		<img src="./images/banner-bg.jpg" class="d-block w-100" alt="..." style="height:580px;">
-		<div class="carousel-caption" style="margin-bottom:70px;">
+		<div class="carousel-caption" style="margin-bottom:100px;">
 		
             <h1 style="color:black; text-shadow: 0px 0px 5px #FFF">Rancang Strategi Implementasi TIK yang Tepat dan Efisien</h1>
 			
@@ -40,7 +40,7 @@
 		</div>
 
 		<div style="margin-right: 50%;">
-			<div style="margin:40px 0px 0px 120px;">
+			<div style="margin:70px 0px 0px 120px;">
 				<h2 style="font-size:27px; font-weight:bold; margin-left:20px;">Sistem HR Terbaik untuk Bisnis Anda</h2>
 				<p style="text-align: justify; margin:0px 20px 0px 20px">
 				Menyederhanakan alur kerja kegiatan perusahaan dalam manajemen sumber daya manusia. Aplikasi ini memberikan kemudahan dalam pengelolaan data karyawan, pengelolaan waktu kerja, rekapitulasi kehadiran, penyederhanaan pengelolaan gaji dan penghitungan PPh (Pajak Penghasilan), Pengelolaan Cuti dan Ijin serta pelaporan karyawan.
