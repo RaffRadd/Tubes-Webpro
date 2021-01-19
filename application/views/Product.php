@@ -23,11 +23,11 @@
 
     <div>
 		<img src="./images/banner-bg.jpg" class="d-block w-100" alt="..." style="height:580px;">
-		<div class="carousel-caption" style="margin-bottom:100px;">
+		<div class="carousel-caption" style="margin-bottom:140px;">
 		
-            <h1 style="color:black; text-shadow: 0px 0px 5px #FFF">Rancang Strategi Implementasi TIK yang Tepat dan Efisien</h1>
+            <h1 style="color:black; text-shadow: 0px 0px 5px #FFF">Sistem Informasi Kepegawaian untuk Semua Jenis Bisnis</h1>
 			
-            <h5 style="text-shadow: 0px 0px 5px #000">Layanan konsultasi teknologi informasi profesional dan berkualitas untuk membantu organisasi (pemerintah, korporasi maupun akademik) dalam mencapai tujuan, visi dan misi. Membangun masa depan strategis dan tersistematis</h5>
+            <h5 style="text-shadow: 0px 0px 5px #000">Software HR atau HRIS (Human Resource Information System) adalah sistem informasi kepegawaian yang dirancang untuk aplikasi HRD yang memudahkan dalam pengelolaan data karyawan, pengelolaan payroll gaji dan penghitungan PPh, pencatatan proses mutasi, serta pengelolaan rekrutmen karyawan.</h5>
 			
         </div>
 	</div>

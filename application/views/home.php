@@ -89,7 +89,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 					<p>Saat ini Gamatechno sebagai software developer terbaik telah melayani lebih dari 400 klien B2B di seluruh Indonesia. Seiring dengan perkembangan perusahaan, Gamatechno memperluas segmen market untuk menyediakan solusi teknologi bagi institusi pemerintah, bisnis, transportasi dan beberapa segmen penting lainnya</p>
-					<a href="%3C?php%20echo%20site_url('About')?%3E"><button class="button">Selengkapnya</button></a>
+					<a href="<?php echo site_url('contactUs')?>"><button class="button">Selengkapnya</button></a>
 				</div>
 			</div>
 		</div>
